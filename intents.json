@@ -1,0 +1,280 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye"
+      ],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "greeting",
+      "patterns": [
+        "How do you do?",
+        "Are u Ok!",
+        "How are you"
+      ],
+      "responses": [
+        "I am fine , what about you",
+        "Fine.. Thanks.. ,Tell me about your self"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Thank's a lot!"
+      ],
+      "responses": [
+        "Happy to help!",
+        "Any time!",
+        "My pleasure"
+      ]
+    },
+    {
+      "tag": "symptoms",
+      "patterns": [
+        "itching",
+        "skin rash",
+        "nodal skin eruptions",
+        "continuous sneezing",
+        "shivering",
+        "chills",
+        "joint pain",
+        "stomach pain",
+        "acidity",
+        "ulcers on tongue",
+        "muscle wasting",
+        "vomiting",
+        "burning micturition",
+        "spotting urination",
+        "fatigue",
+        "weight gain",
+        "anxiety",
+        "cold hands and feets",
+        "mood swings",
+        "weight loss",
+        "restlessness",
+        "lethargy",
+        "patches in throat",
+        "irregular sugar level",
+        "cough",
+        "high fever",
+        "sunken eyes",
+        "breathlessness",
+        "sweating",
+        "dehydration",
+        "indigestion",
+        "headache",
+        "yellowish skin",
+        "dark urine",
+        "nausea",
+        "loss of appetite",
+        "pain behind the eyes",
+        "back pain",
+        "constipation",
+        "abdominal pain",
+        "diarrhoea",
+        "mild fever",
+        "yellow urine",
+        "yellowing of eyes",
+        "acute liver failure",
+        "fluid overload",
+        "swelling of stomach",
+        "swelled lymph nodes",
+        "malaise",
+        "blurred and distorted vision",
+        "phlegm",
+        "throat irritation",
+        "redness of eyes",
+        "sinus pressure",
+        "runny nose",
+        "congestion",
+        "chest pain",
+        "weakness in limbs",
+        "fast heart rate",
+        "pain during bowel movements",
+        "pain in anal region",
+        "bloody stool",
+        "irritation in anus",
+        "neck pain",
+        "dizziness",
+        "cramps",
+        "bruising",
+        "obesity",
+        "swollen legs",
+        "swollen blood vessels",
+        "puffy face and eyes",
+        "enlarged thyroid",
+        "brittle nails",
+        "swollen extremeties",
+        "excessive hunger",
+        "extra marital contacts",
+        "drying and tingling lips",
+        "slurred speech",
+        "knee pain",
+        "hip joint pain",
+        "muscle weakness",
+        "stiff neck",
+        "swelling joints",
+        "movement stiffness",
+        "spinning movements",
+        "loss of balance",
+        "unsteadiness",
+        "weakness of one body side",
+        "loss of smell",
+        "bladder discomfort",
+        "foul smell of urine",
+        "continuous feel of urine",
+        "passage of gases",
+        "internal itching",
+        "toxic look (typhos)",
+        "depression",
+        "irritability",
+        "muscle pain",
+        "altered sensorium",
+        "red spots over body",
+        "belly pain",
+        "abnormal menstruation",
+        "dischromic patches",
+        "watering from eyes",
+        "increased appetite",
+        "polyuria",
+        "family history",
+        "mucoid sputum",
+        "rusty sputum",
+        "lack of concentration",
+        "visual disturbances",
+        "receiving blood transfusion",
+        "receiving unsterile injections",
+        "coma",
+        "stomach bleeding",
+        "distention of abdomen",
+        "history of alcohol consumption",
+        "fluid overload.1",
+        "blood in sputum",
+        "prominent veins on calf",
+        "palpitations",
+        "painful walking",
+        "pus filled pimples",
+        "blackheads",
+        "scurring",
+        "skin peeling",
+        "silver like dusting",
+        "small dents in nails",
+        "inflammatory nails",
+        "blister",
+        "red sore around nose",
+        "yellow crust ooze",
+        "prognosis"
+      ],
+      "responses": [
+        "Say another symptom other that you said now, if nothing else- say 'No' or 'Predict' "
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "asking",
+      "patterns": [
+        "I am sick today.",
+        "I am not feeling well",
+        "I need help",
+        "predict my disease",
+        "help me with telling my disease",
+        "Diagnose me"
+      ],
+      "responses": [
+        "Ok!!.. Don't worry..Tell me your symptoms, I will help you"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "tips",
+      "patterns": [
+        "Tell me some healthy tips?",
+        "Can you suggest me some healthy tips?",
+        "Can u suggest me some healthy tips?",
+        "Help me with some healthy tips?"
+      ],
+      "responses": [
+        "Choose whole grains more often. Try whole-wheat breads and pastas, oatmeal, or brown rice.",
+        "Select a mix of colorful vegetables. Vegetables of different colors provide a variety of nutrients. Try collards, kale, spinach, squash, sweet potatoes, and tomatoes.",
+        "At restaurants, eat only half of your meal and take the rest home.",
+        "Walk in parks, around a track, or in your neighborhood with your family or friends.",
+        "Make getting physical activity a priority.",
+        "Try to do at least 150 minutes a week of moderate-intensity aerobic activity, like biking or brisk walking.",
+        "If your time is limited, work in small amounts of activity throughout your day."
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?",
+        "Encorage me"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison.",
+        "Did you hear they arrested the devil? Yeah, they got him on possession.",
+        "What did one DNA say to the other DNA? “Do these genes make me look fat?”",
+        "My IQ test results came back. They were negative.",
+        "What do you get when you cross a polar bear with a seal? A polar bear.",
+        "Why can’t you trust an atom? Because they make up literally everything.",
+        "Why was six afraid of seven? Because seven eight nine.",
+        "What do you call a hippie’s wife? Mississippi.",
+        "What’s the difference between an outlaw and an in-law? Outlaws are wanted.",
+        "Scientists have recently discovered a food that greatly reduces sex drive. It’s called wedding cake.",
+        "Before you marry a person, you should first make them use a computer with a slow Internet connection to see who they really are.",
+        "I never knew what happiness was until I got married—and then it was too late.",
+        "Some men say they don’t wear their wedding band because it cuts off circulation. Well, that’s the point, isn’t it?",
+        "Advice to husbands: Try praising your wife now and then, even if it does startle her at first."
+      ],
+      "context": [
+        ""
+      ]
+    }
+  ]
+}
